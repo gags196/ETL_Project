@@ -33,14 +33,6 @@ pip install pandas sqlalchemy requests pyodbc
 - Enable TCP/IP protocol in SQL Server Configuration Manager
 - Create a user `etl_user` with the specified password and grant access to `CurrencyDB`
 
-### 4. Edit `config.py`
-Update your database connection string and API key:
-```python
-CONNECTION_STRING = (
-    "mssql+pyodbc://etl_user:your_password@localhost\SQLEXPRESS/CurrencyDB?"
-    "driver=ODBC+Driver+18+for+SQL+Server&Encrypt=no&TrustServerCertificate=yes"
-)
-```
 
 ## 🚀 Running the Pipeline
 
@@ -54,13 +46,8 @@ python elt_pipeline.py
   - Merges the datasets and loads them into the `ExchangeRates` table in SQL Server
   - Logs progress in `etl_log.log`
 
-## 📈 KPI Highlights (for resume)
+## 📈 KPI Highlights
 - Automated data extraction and transformation from CSV and API.
 - Reduced manual data integration efforts with scheduled ETL logic.
 - Ensured data reliability via logging and exception handling.
 - Connected Python and SQL Server using `SQLAlchemy` and `pyodbc`.
-
-## 🔄 Future Improvements
-- Integrate scheduling with `cron` or `task scheduler`
-- Add unit tests and error notifications
-- Migrate to Airflow or Prefect for orchestration
