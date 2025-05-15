@@ -1,0 +1,52 @@
+2025-05-11 19:10:10,634 CSV data extracted.
+2025-05-11 19:10:11,486 Exchange rate API data extracted.
+2025-05-11 19:10:11,490 One or both DataFrames are empty.
+2025-05-11 19:17:27,997 CSV data extracted.
+2025-05-11 19:17:28,867 Exchange rate API data extracted.
+2025-05-11 19:17:28,889 Data transformed. 5 rows after merge.
+2025-05-11 19:17:45,052 Loading error: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2].  (2) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (2)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 19:26:57,536 CSV data extracted.
+2025-05-11 19:26:58,408 Exchange rate API data extracted.
+2025-05-11 19:26:58,445 Data transformed. 5 rows after merge.
+2025-05-11 19:27:14,363 Loading error: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2].  (2) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to localhost. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (2)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 19:38:07,217 CSV data extracted.
+2025-05-11 19:38:08,103 Exchange rate API data extracted.
+2025-05-11 19:38:08,127 Data transformed. 5 rows after merge.
+2025-05-11 19:38:08,241 Loading error: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 19:40:58,206 CSV data extracted.
+2025-05-11 19:40:59,065 Exchange rate API data extracted.
+2025-05-11 19:40:59,142 Data transformed. 5 rows after merge.
+2025-05-11 19:40:59,286 Loading error: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 18 for SQL Server]SSL Provider: The certificate chain was issued by an authority that is not trusted.\r\n (-2146893019) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Client unable to establish connection. For solutions related to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722 (-2146893019)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 19:43:35,462 CSV data extracted.
+2025-05-11 19:43:36,328 Exchange rate API data extracted.
+2025-05-11 19:43:36,410 Data transformed. 5 rows after merge.
+2025-05-11 19:43:36,510 Loading error: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'etl_user'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'etl_user'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-05-11 19:51:55,949 CSV data extracted.
+2025-05-11 19:51:56,819 Exchange rate API data extracted.
+2025-05-11 19:51:56,845 Data transformed. 5 rows after merge.
+2025-05-11 19:51:56,936 Loading error: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'etl_user'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'etl_user'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-05-11 20:09:25,981 CSV data extracted.
+2025-05-11 20:09:26,841 Exchange rate API data extracted.
+2025-05-11 20:09:26,886 Data transformed. 5 rows after merge.
+2025-05-11 20:09:26,935 Loading error: (pyodbc.Error) ('IM012', '[IM012] [Microsoft][ODBC Driver Manager] DRIVER keyword syntax error (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-05-11 20:10:08,510 CSV data extracted.
+2025-05-11 20:10:09,368 Exchange rate API data extracted.
+2025-05-11 20:10:09,405 Data transformed. 5 rows after merge.
+2025-05-11 20:10:09,468 Loading error: (pyodbc.Error) ('IM012', '[IM012] [Microsoft][ODBC Driver Manager] DRIVER keyword syntax error (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-05-11 22:42:11,277 CSV data extracted.
+2025-05-11 22:42:12,243 Exchange rate API data extracted.
+2025-05-11 22:42:12,270 Data transformed. 5 rows after merge.
+2025-05-11 22:42:12,320 Loading error: (pyodbc.Error) ('IM012', '[IM012] [Microsoft][ODBC Driver Manager] DRIVER keyword syntax error (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-05-11 23:18:28,118 INFO CSV extracted: 5 rows.
+2025-05-11 23:18:29,013 INFO API extracted: 163 rates.
+2025-05-11 23:18:29,100 INFO Transformed: 5 rows after merge.
+2025-05-11 23:18:30,261 INFO Loaded into table `ExchangeRates` successfully.
